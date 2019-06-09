@@ -37,3 +37,11 @@ Expand-Archive .\Ubuntu.zip .\Ubuntu
 $userenv = [System.Environment]::GetEnvironmentVariable("Path", "User")
 [System.Environment]::SetEnvironmentVariable("PATH", $userenv + "C:\Users\Administrator\Ubuntu", "User")
 ```
+
+
+8. The last step is to initialize your distro instance by typing in the following command:
+```Bash
+sudo apt update && sudo apt upgrade
+```
+You could also check this step from the [wsl initialize distro tutorial](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro).
+
