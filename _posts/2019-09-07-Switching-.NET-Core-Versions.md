@@ -3,7 +3,7 @@ layout: post
 title: Switching .NET Core Versions
 ---
 
-- Unline .NET Framework, different .NET Core versions could be installed side by side each others.
+- Unlike .NET Framework, different .NET Core versions could be installed side by side each others.
 
 - .NET Core SDKs are installed in
 ```
